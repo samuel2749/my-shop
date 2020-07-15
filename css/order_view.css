@@ -1,0 +1,52 @@
+.header{
+}
+
+.header h1{
+
+}
+
+.header a{
+
+}
+
+.order_list{
+
+}
+
+.order_list .order_item{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin: 1% 1%;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.order_list .order_item .name{
+
+}
+
+.order_list .order_item .price{
+
+}
+
+.order_list .order_item .qty{
+
+}
+
+.order_list .order_item .description{
+
+}
+
+.order_list .order_item .imgBox{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.order_list .order_item .imgBox img{
+    width: 100%;
+    visibility: hidden; 
+}

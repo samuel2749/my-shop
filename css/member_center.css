@@ -1,0 +1,44 @@
+
+.clear{
+    clear: both;
+}
+
+.order_box{
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.order_box .addBtn{
+    float: right;
+}
+
+.order_box .content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 1%; 
+}
+
+.order_box .content .order{
+    width: 100%;
+    border-bottom: solid 1px;
+}
+
+.order_box .content .order:nth-child(even){
+    background: #f6fbb2;
+}
+
+.order_box .content .order span{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+}
+
+.order_box .content .order span.order_total{
+    width: 20%;
+}
+.order_box .content .order span.order_time{
+    width: 35%;
+}
